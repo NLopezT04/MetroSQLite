@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0C687D22043017003BDDD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C687C22043017003BDDD9 /* AppDelegate.swift */; };
+		8E0C688222043017003BDDD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C688022043017003BDDD9 /* Main.storyboard */; };
+		8E0C688422043020003BDDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C688322043020003BDDD9 /* Assets.xcassets */; };
+		8E0C688722043020003BDDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C688522043020003BDDD9 /* LaunchScreen.storyboard */; };
+		8E0C689222043020003BDDD9 /* MetroSqliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C689122043020003BDDD9 /* MetroSqliteTests.swift */; };
+		8E0C689D22043020003BDDD9 /* MetroSqliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C689C22043020003BDDD9 /* MetroSqliteUITests.swift */; };
+		8E0C68AD22043155003BDDD9 /* TVCLineas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C68AC22043155003BDDD9 /* TVCLineas.swift */; };
+		8E0C68B0220432A2003BDDD9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0C68AF220432A2003BDDD9 /* libsqlite3.0.tbd */; };
+		8E0C68B422043337003BDDD9 /* metro.bd.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68B322043337003BDDD9 /* metro.bd.sqlite */; };
+		8E0C68E5220434D1003BDDD9 /* DaoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C68E4220434D1003BDDD9 /* DaoManager.swift */; };
+		8E0C68F7220434E7003BDDD9 /* icono_linea_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68E6220434E5003BDDD9 /* icono_linea_10.png */; };
+		8E0C68F8220434E7003BDDD9 /* icono_linea_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68E7220434E5003BDDD9 /* icono_linea_1.png */; };
+		8E0C68F9220434E7003BDDD9 /* icono_linea_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68E8220434E5003BDDD9 /* icono_linea_7.png */; };
+		8E0C68FA220434E7003BDDD9 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68E9220434E5003BDDD9 /* fondo.png */; };
+		8E0C68FB220434E7003BDDD9 /* ico58.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68EA220434E5003BDDD9 /* ico58.png */; };
+		8E0C68FC220434E7003BDDD9 /* icono_linea_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68EB220434E5003BDDD9 /* icono_linea_6.png */; };
+		8E0C68FD220434E7003BDDD9 /* icono_linea_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68EC220434E6003BDDD9 /* icono_linea_12.png */; };
+		8E0C68FE220434E7003BDDD9 /* ico80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68ED220434E6003BDDD9 /* ico80.png */; };
+		8E0C68FF220434E7003BDDD9 /* ico120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68EE220434E6003BDDD9 /* ico120.png */; };
+		8E0C6900220434E7003BDDD9 /* icono_linea_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68EF220434E6003BDDD9 /* icono_linea_4.png */; };
+		8E0C6901220434E7003BDDD9 /* icono_linea_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68F0220434E6003BDDD9 /* icono_linea_5.png */; };
+		8E0C6902220434E7003BDDD9 /* icono_linea_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68F1220434E6003BDDD9 /* icono_linea_3.png */; };
+		8E0C6903220434E7003BDDD9 /* icono_linea_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68F2220434E6003BDDD9 /* icono_linea_9.png */; };
+		8E0C6904220434E7003BDDD9 /* icono_linea_51.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68F3220434E6003BDDD9 /* icono_linea_51.png */; };
+		8E0C6905220434E7003BDDD9 /* icono_linea_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68F4220434E7003BDDD9 /* icono_linea_11.png */; };
+		8E0C6906220434E7003BDDD9 /* icono_linea_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68F5220434E7003BDDD9 /* icono_linea_2.png */; };
+		8E0C6907220434E7003BDDD9 /* icono_linea_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C68F6220434E7003BDDD9 /* icono_linea_8.png */; };
+		8E0C690B22043601003BDDD9 /* Linea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C690A22043601003BDDD9 /* Linea.swift */; };
+		8E0C690D220437B9003BDDD9 /* Estacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C690C220437B9003BDDD9 /* Estacion.swift */; };
+		8E0C69112204448A003BDDD9 /* TVCellLinea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C69102204448A003BDDD9 /* TVCellLinea.swift */; };
+		8E0C691522044B85003BDDD9 /* icono_linea_99.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C691222044B84003BDDD9 /* icono_linea_99.png */; };
+		8E0C691622044B85003BDDD9 /* icono_linea_53.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C691322044B84003BDDD9 /* icono_linea_53.png */; };
+		8E0C691722044B85003BDDD9 /* icono_linea_52.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C691422044B84003BDDD9 /* icono_linea_52.png */; };
+		8EF8119522044E42005D3681 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8119422044E42005D3681 /* Util.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E0C688E22043020003BDDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E0C687122043016003BDDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0C687822043017003BDDD9;
+			remoteInfo = MetroSqlite;
+		};
+		8E0C689922043020003BDDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E0C687122043016003BDDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0C687822043017003BDDD9;
+			remoteInfo = MetroSqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E0C687922043017003BDDD9 /* MetroSqlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroSqlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0C687C22043017003BDDD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E0C688122043017003BDDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E0C688322043020003BDDD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E0C688622043020003BDDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E0C688822043020003BDDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0C688D22043020003BDDD9 /* MetroSqliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroSqliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0C689122043020003BDDD9 /* MetroSqliteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroSqliteTests.swift; sourceTree = "<group>"; };
+		8E0C689322043020003BDDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0C689822043020003BDDD9 /* MetroSqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroSqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0C689C22043020003BDDD9 /* MetroSqliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroSqliteUITests.swift; sourceTree = "<group>"; };
+		8E0C689E22043020003BDDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0C68AC22043155003BDDD9 /* TVCLineas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCLineas.swift; sourceTree = "<group>"; };
+		8E0C68AF220432A2003BDDD9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8E0C68B322043337003BDDD9 /* metro.bd.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = metro.bd.sqlite; sourceTree = "<group>"; };
+		8E0C68E4220434D1003BDDD9 /* DaoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoManager.swift; sourceTree = "<group>"; };
+		8E0C68E6220434E5003BDDD9 /* icono_linea_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_10.png; path = MetroSqlite/img/icono_linea_10.png; sourceTree = SOURCE_ROOT; };
+		8E0C68E7220434E5003BDDD9 /* icono_linea_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_1.png; path = MetroSqlite/img/icono_linea_1.png; sourceTree = SOURCE_ROOT; };
+		8E0C68E8220434E5003BDDD9 /* icono_linea_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_7.png; path = MetroSqlite/img/icono_linea_7.png; sourceTree = SOURCE_ROOT; };
+		8E0C68E9220434E5003BDDD9 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondo.png; path = MetroSqlite/img/fondo.png; sourceTree = SOURCE_ROOT; };
+		8E0C68EA220434E5003BDDD9 /* ico58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico58.png; path = MetroSqlite/img/ico58.png; sourceTree = SOURCE_ROOT; };
+		8E0C68EB220434E5003BDDD9 /* icono_linea_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_6.png; path = MetroSqlite/img/icono_linea_6.png; sourceTree = SOURCE_ROOT; };
+		8E0C68EC220434E6003BDDD9 /* icono_linea_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_12.png; path = MetroSqlite/img/icono_linea_12.png; sourceTree = SOURCE_ROOT; };
+		8E0C68ED220434E6003BDDD9 /* ico80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico80.png; path = MetroSqlite/img/ico80.png; sourceTree = SOURCE_ROOT; };
+		8E0C68EE220434E6003BDDD9 /* ico120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico120.png; path = MetroSqlite/img/ico120.png; sourceTree = SOURCE_ROOT; };
+		8E0C68EF220434E6003BDDD9 /* icono_linea_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_4.png; path = MetroSqlite/img/icono_linea_4.png; sourceTree = SOURCE_ROOT; };
+		8E0C68F0220434E6003BDDD9 /* icono_linea_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_5.png; path = MetroSqlite/img/icono_linea_5.png; sourceTree = SOURCE_ROOT; };
+		8E0C68F1220434E6003BDDD9 /* icono_linea_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_3.png; path = MetroSqlite/img/icono_linea_3.png; sourceTree = SOURCE_ROOT; };
+		8E0C68F2220434E6003BDDD9 /* icono_linea_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_9.png; path = MetroSqlite/img/icono_linea_9.png; sourceTree = SOURCE_ROOT; };
+		8E0C68F3220434E6003BDDD9 /* icono_linea_51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_51.png; path = MetroSqlite/img/icono_linea_51.png; sourceTree = SOURCE_ROOT; };
+		8E0C68F4220434E7003BDDD9 /* icono_linea_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_11.png; path = MetroSqlite/img/icono_linea_11.png; sourceTree = SOURCE_ROOT; };
+		8E0C68F5220434E7003BDDD9 /* icono_linea_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_2.png; path = MetroSqlite/img/icono_linea_2.png; sourceTree = SOURCE_ROOT; };
+		8E0C68F6220434E7003BDDD9 /* icono_linea_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_8.png; path = MetroSqlite/img/icono_linea_8.png; sourceTree = SOURCE_ROOT; };
+		8E0C690A22043601003BDDD9 /* Linea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linea.swift; sourceTree = "<group>"; };
+		8E0C690C220437B9003BDDD9 /* Estacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estacion.swift; sourceTree = "<group>"; };
+		8E0C69102204448A003BDDD9 /* TVCellLinea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCellLinea.swift; sourceTree = "<group>"; };
+		8E0C691222044B84003BDDD9 /* icono_linea_99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono_linea_99.png; sourceTree = "<group>"; };
+		8E0C691322044B84003BDDD9 /* icono_linea_53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono_linea_53.png; path = "../../../../../../Users/nestor/Downloads/6. BD Sqlite/img/icono_linea_53.png"; sourceTree = "<group>"; };
+		8E0C691422044B84003BDDD9 /* icono_linea_52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono_linea_52.png; sourceTree = "<group>"; };
+		8EF8119422044E42005D3681 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Util.swift; path = "../../../../../../Users/nestor/Downloads/6. BD Sqlite/Util.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E0C687622043017003BDDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0C68B0220432A2003BDDD9 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0C688A22043020003BDDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0C689522043020003BDDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E0C687022043016003BDDD9 = {
+			isa = PBXGroup;
+			children = (
+				8E0C687B22043017003BDDD9 /* MetroSqlite */,
+				8E0C689022043020003BDDD9 /* MetroSqliteTests */,
+				8E0C689B22043020003BDDD9 /* MetroSqliteUITests */,
+				8E0C687A22043017003BDDD9 /* Products */,
+				8E0C68AE220432A2003BDDD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E0C687A22043017003BDDD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C687922043017003BDDD9 /* MetroSqlite.app */,
+				8E0C688D22043020003BDDD9 /* MetroSqliteTests.xctest */,
+				8E0C689822043020003BDDD9 /* MetroSqliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E0C687B22043017003BDDD9 /* MetroSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C68DF22043469003BDDD9 /* util */,
+				8E0C68DC22043440003BDDD9 /* model */,
+				8E0C68DB22043437003BDDD9 /* views */,
+				8E0C68D8220433EF003BDDD9 /* img */,
+				8E0C68B322043337003BDDD9 /* metro.bd.sqlite */,
+				8E0C687C22043017003BDDD9 /* AppDelegate.swift */,
+				8E0C688022043017003BDDD9 /* Main.storyboard */,
+				8E0C688322043020003BDDD9 /* Assets.xcassets */,
+				8E0C688522043020003BDDD9 /* LaunchScreen.storyboard */,
+				8E0C688822043020003BDDD9 /* Info.plist */,
+			);
+			path = MetroSqlite;
+			sourceTree = "<group>";
+		};
+		8E0C689022043020003BDDD9 /* MetroSqliteTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C689122043020003BDDD9 /* MetroSqliteTests.swift */,
+				8E0C689322043020003BDDD9 /* Info.plist */,
+			);
+			path = MetroSqliteTests;
+			sourceTree = "<group>";
+		};
+		8E0C689B22043020003BDDD9 /* MetroSqliteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C689C22043020003BDDD9 /* MetroSqliteUITests.swift */,
+				8E0C689E22043020003BDDD9 /* Info.plist */,
+			);
+			path = MetroSqliteUITests;
+			sourceTree = "<group>";
+		};
+		8E0C68AE220432A2003BDDD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C68AF220432A2003BDDD9 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E0C68D8220433EF003BDDD9 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C691422044B84003BDDD9 /* icono_linea_52.png */,
+				8E0C691322044B84003BDDD9 /* icono_linea_53.png */,
+				8E0C691222044B84003BDDD9 /* icono_linea_99.png */,
+				8E0C68E9220434E5003BDDD9 /* fondo.png */,
+				8E0C68EA220434E5003BDDD9 /* ico58.png */,
+				8E0C68ED220434E6003BDDD9 /* ico80.png */,
+				8E0C68EE220434E6003BDDD9 /* ico120.png */,
+				8E0C68E7220434E5003BDDD9 /* icono_linea_1.png */,
+				8E0C68F5220434E7003BDDD9 /* icono_linea_2.png */,
+				8E0C68F1220434E6003BDDD9 /* icono_linea_3.png */,
+				8E0C68EF220434E6003BDDD9 /* icono_linea_4.png */,
+				8E0C68F0220434E6003BDDD9 /* icono_linea_5.png */,
+				8E0C68EB220434E5003BDDD9 /* icono_linea_6.png */,
+				8E0C68E8220434E5003BDDD9 /* icono_linea_7.png */,
+				8E0C68F6220434E7003BDDD9 /* icono_linea_8.png */,
+				8E0C68F2220434E6003BDDD9 /* icono_linea_9.png */,
+				8E0C68E6220434E5003BDDD9 /* icono_linea_10.png */,
+				8E0C68F4220434E7003BDDD9 /* icono_linea_11.png */,
+				8E0C68EC220434E6003BDDD9 /* icono_linea_12.png */,
+				8E0C68F3220434E6003BDDD9 /* icono_linea_51.png */,
+			);
+			name = img;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8E0C68DB22043437003BDDD9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C68AC22043155003BDDD9 /* TVCLineas.swift */,
+				8E0C69102204448A003BDDD9 /* TVCellLinea.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		8E0C68DC22043440003BDDD9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C68DE2204344F003BDDD9 /* dao */,
+				8E0C68DD22043447003BDDD9 /* entities */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8E0C68DD22043447003BDDD9 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C690A22043601003BDDD9 /* Linea.swift */,
+				8E0C690C220437B9003BDDD9 /* Estacion.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		8E0C68DE2204344F003BDDD9 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C68E4220434D1003BDDD9 /* DaoManager.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		8E0C68DF22043469003BDDD9 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8119422044E42005D3681 /* Util.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E0C687822043017003BDDD9 /* MetroSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0C68A122043020003BDDD9 /* Build configuration list for PBXNativeTarget "MetroSqlite" */;
+			buildPhases = (
+				8E0C687522043017003BDDD9 /* Sources */,
+				8E0C687622043017003BDDD9 /* Frameworks */,
+				8E0C687722043017003BDDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroSqlite;
+			productName = MetroSqlite;
+			productReference = 8E0C687922043017003BDDD9 /* MetroSqlite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E0C688C22043020003BDDD9 /* MetroSqliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0C68A422043020003BDDD9 /* Build configuration list for PBXNativeTarget "MetroSqliteTests" */;
+			buildPhases = (
+				8E0C688922043020003BDDD9 /* Sources */,
+				8E0C688A22043020003BDDD9 /* Frameworks */,
+				8E0C688B22043020003BDDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0C688F22043020003BDDD9 /* PBXTargetDependency */,
+			);
+			name = MetroSqliteTests;
+			productName = MetroSqliteTests;
+			productReference = 8E0C688D22043020003BDDD9 /* MetroSqliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E0C689722043020003BDDD9 /* MetroSqliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0C68A722043020003BDDD9 /* Build configuration list for PBXNativeTarget "MetroSqliteUITests" */;
+			buildPhases = (
+				8E0C689422043020003BDDD9 /* Sources */,
+				8E0C689522043020003BDDD9 /* Frameworks */,
+				8E0C689622043020003BDDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0C689A22043020003BDDD9 /* PBXTargetDependency */,
+			);
+			name = MetroSqliteUITests;
+			productName = MetroSqliteUITests;
+			productReference = 8E0C689822043020003BDDD9 /* MetroSqliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E0C687122043016003BDDD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nestor Lopez";
+				TargetAttributes = {
+					8E0C687822043017003BDDD9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8E0C688C22043020003BDDD9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8E0C687822043017003BDDD9;
+					};
+					8E0C689722043020003BDDD9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8E0C687822043017003BDDD9;
+					};
+				};
+			};
+			buildConfigurationList = 8E0C687422043016003BDDD9 /* Build configuration list for PBXProject "MetroSqlite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E0C687022043016003BDDD9;
+			productRefGroup = 8E0C687A22043017003BDDD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E0C687822043017003BDDD9 /* MetroSqlite */,
+				8E0C688C22043020003BDDD9 /* MetroSqliteTests */,
+				8E0C689722043020003BDDD9 /* MetroSqliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E0C687722043017003BDDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0C691522044B85003BDDD9 /* icono_linea_99.png in Resources */,
+				8E0C6900220434E7003BDDD9 /* icono_linea_4.png in Resources */,
+				8E0C688722043020003BDDD9 /* LaunchScreen.storyboard in Resources */,
+				8E0C68F8220434E7003BDDD9 /* icono_linea_1.png in Resources */,
+				8E0C6902220434E7003BDDD9 /* icono_linea_3.png in Resources */,
+				8E0C68F9220434E7003BDDD9 /* icono_linea_7.png in Resources */,
+				8E0C6904220434E7003BDDD9 /* icono_linea_51.png in Resources */,
+				8E0C68FF220434E7003BDDD9 /* ico120.png in Resources */,
+				8E0C6903220434E7003BDDD9 /* icono_linea_9.png in Resources */,
+				8E0C68FD220434E7003BDDD9 /* icono_linea_12.png in Resources */,
+				8E0C68FA220434E7003BDDD9 /* fondo.png in Resources */,
+				8E0C68FB220434E7003BDDD9 /* ico58.png in Resources */,
+				8E0C6907220434E7003BDDD9 /* icono_linea_8.png in Resources */,
+				8E0C6901220434E7003BDDD9 /* icono_linea_5.png in Resources */,
+				8E0C688422043020003BDDD9 /* Assets.xcassets in Resources */,
+				8E0C68B422043337003BDDD9 /* metro.bd.sqlite in Resources */,
+				8E0C691622044B85003BDDD9 /* icono_linea_53.png in Resources */,
+				8E0C6905220434E7003BDDD9 /* icono_linea_11.png in Resources */,
+				8E0C68FC220434E7003BDDD9 /* icono_linea_6.png in Resources */,
+				8E0C691722044B85003BDDD9 /* icono_linea_52.png in Resources */,
+				8E0C688222043017003BDDD9 /* Main.storyboard in Resources */,
+				8E0C6906220434E7003BDDD9 /* icono_linea_2.png in Resources */,
+				8E0C68F7220434E7003BDDD9 /* icono_linea_10.png in Resources */,
+				8E0C68FE220434E7003BDDD9 /* ico80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0C688B22043020003BDDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0C689622043020003BDDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E0C687522043017003BDDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0C68E5220434D1003BDDD9 /* DaoManager.swift in Sources */,
+				8E0C687D22043017003BDDD9 /* AppDelegate.swift in Sources */,
+				8E0C69112204448A003BDDD9 /* TVCellLinea.swift in Sources */,
+				8E0C68AD22043155003BDDD9 /* TVCLineas.swift in Sources */,
+				8EF8119522044E42005D3681 /* Util.swift in Sources */,
+				8E0C690B22043601003BDDD9 /* Linea.swift in Sources */,
+				8E0C690D220437B9003BDDD9 /* Estacion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0C688922043020003BDDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0C689222043020003BDDD9 /* MetroSqliteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0C689422043020003BDDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0C689D22043020003BDDD9 /* MetroSqliteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E0C688F22043020003BDDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0C687822043017003BDDD9 /* MetroSqlite */;
+			targetProxy = 8E0C688E22043020003BDDD9 /* PBXContainerItemProxy */;
+		};
+		8E0C689A22043020003BDDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0C687822043017003BDDD9 /* MetroSqlite */;
+			targetProxy = 8E0C689922043020003BDDD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E0C688022043017003BDDD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0C688122043017003BDDD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E0C688522043020003BDDD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0C688622043020003BDDD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E0C689F22043020003BDDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E0C68A022043020003BDDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E0C68A222043020003BDDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroSqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.MetroSqlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E0C68A322043020003BDDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroSqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.MetroSqlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E0C68A522043020003BDDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroSqliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.MetroSqliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroSqlite.app/MetroSqlite";
+			};
+			name = Debug;
+		};
+		8E0C68A622043020003BDDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroSqliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.MetroSqliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroSqlite.app/MetroSqlite";
+			};
+			name = Release;
+		};
+		8E0C68A822043020003BDDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroSqliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.MetroSqliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetroSqlite;
+			};
+			name = Debug;
+		};
+		8E0C68A922043020003BDDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroSqliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.MetroSqliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetroSqlite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E0C687422043016003BDDD9 /* Build configuration list for PBXProject "MetroSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0C689F22043020003BDDD9 /* Debug */,
+				8E0C68A022043020003BDDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0C68A122043020003BDDD9 /* Build configuration list for PBXNativeTarget "MetroSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0C68A222043020003BDDD9 /* Debug */,
+				8E0C68A322043020003BDDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0C68A422043020003BDDD9 /* Build configuration list for PBXNativeTarget "MetroSqliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0C68A522043020003BDDD9 /* Debug */,
+				8E0C68A622043020003BDDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0C68A722043020003BDDD9 /* Build configuration list for PBXNativeTarget "MetroSqliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0C68A822043020003BDDD9 /* Debug */,
+				8E0C68A922043020003BDDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E0C687122043016003BDDD9 /* Project object */;
+}
